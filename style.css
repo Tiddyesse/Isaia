@@ -1,0 +1,86 @@
+h1 {
+    position: absolute;
+    left: 50%;
+   top: 40%;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    
+}
+
+textarea#password {
+    resize: none;
+    border: none;
+    box-shadow: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    resize: none;
+    height: 8%; 
+    padding-top: 1.5%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:120%;
+    outline: none;
+
+}
+
+#errore {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 600%;
+  font-family: 'Courier New', Courier, monospace;
+  background: black;
+  padding: 20%;
+  text-align: center;
+  white-space: nowrap;
+
+
+}
+
+button {
+    position: fixed;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant-caps:all-petite-caps;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid black 0px;
+    
+    
+}
+
+button:active {
+  background-color: #c6c6c6;
+  color: rgb(0, 0, 0);
+}
+
+
+div#tutto {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    min-width: 800px;
+    height: 50%;
+    min-height:500px;
+}
